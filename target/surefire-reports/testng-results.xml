@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-12T07:15:24Z" name="Suite" finished-at="2024-12-12T07:15:59Z" duration-ms="35276">
+    <groups>
+      <group name="purchase">
+        <method signature="submitordertest.submitorder(java.util.HashMap)[pri:0, instance:shivakumar.tests.submitordertest@3c9c0d96]" name="submitorder" class="shivakumar.tests.submitordertest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-12-12T07:15:24Z" name="test" finished-at="2024-12-12T07:15:56Z" duration-ms="31872">
+      <class name="shivakumar.tests.submitordertest">
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:shivakumar.tests.submitordertest@3c9c0d96]" started-at="2024-12-12T07:15:24Z" name="lanuchApplication" finished-at="2024-12-12T07:15:26Z" duration-ms="2081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:shivakumar.tests.submitordertest@3c9c0d96]" started-at="2024-12-12T07:15:26Z" name="submitorder" data-provider="getdata" finished-at="2024-12-12T07:15:37Z" duration-ms="11095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Shiva@123, Email=shiva169521@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="typeclose()[pri:0, instance:shivakumar.tests.submitordertest@3c9c0d96]" started-at="2024-12-12T07:15:37Z" name="typeclose" finished-at="2024-12-12T07:15:38Z" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeclose -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:shivakumar.tests.submitordertest@3c9c0d96]" started-at="2024-12-12T07:15:38Z" name="lanuchApplication" finished-at="2024-12-12T07:15:39Z" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:shivakumar.tests.submitordertest@3c9c0d96]" started-at="2024-12-12T07:15:39Z" name="submitorder" data-provider="getdata" finished-at="2024-12-12T07:15:51Z" duration-ms="11583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Shiva@123, Email=shiva16952@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="typeclose()[pri:0, instance:shivakumar.tests.submitordertest@3c9c0d96]" started-at="2024-12-12T07:15:51Z" name="typeclose" finished-at="2024-12-12T07:15:51Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeclose -->
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:shivakumar.tests.submitordertest@3c9c0d96]" started-at="2024-12-12T07:15:51Z" name="lanuchApplication" finished-at="2024-12-12T07:15:53Z" duration-ms="2472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="orderlist()[pri:0, instance:shivakumar.tests.submitordertest@3c9c0d96]" started-at="2024-12-12T07:15:53Z" name="orderlist" finished-at="2024-12-12T07:15:56Z" depends-on-methods="shivakumar.tests.submitordertest.submitorder" duration-ms="2396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderlist -->
+        <test-method is-config="true" signature="typeclose()[pri:0, instance:shivakumar.tests.submitordertest@3c9c0d96]" started-at="2024-12-12T07:15:56Z" name="typeclose" finished-at="2024-12-12T07:15:56Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeclose -->
+      </class> <!-- shivakumar.tests.submitordertest -->
+    </test> <!-- test -->
+    <test started-at="2024-12-12T07:15:56Z" name="Error Test" finished-at="2024-12-12T07:15:59Z" duration-ms="3112">
+      <class name="shivakumar.tests.errorvalidations">
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:shivakumar.tests.errorvalidations@6c0d9d86]" started-at="2024-12-12T07:15:56Z" name="lanuchApplication" finished-at="2024-12-12T07:15:59Z" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="submitorder()[pri:0, instance:shivakumar.tests.errorvalidations@6c0d9d86]" started-at="2024-12-12T07:15:59Z" name="submitorder" finished-at="2024-12-12T07:15:59Z" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="typeclose()[pri:0, instance:shivakumar.tests.errorvalidations@6c0d9d86]" started-at="2024-12-12T07:15:59Z" name="typeclose" finished-at="2024-12-12T07:15:59Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeclose -->
+      </class> <!-- shivakumar.tests.errorvalidations -->
+    </test> <!-- Error Test -->
+  </suite> <!-- Suite -->
+</testng-results>

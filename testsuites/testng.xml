@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name = "test">
+<classes>
+<class name = "shivakumar.tests.submitordertest"/>
+</classes>
+</test>
+  
+    <test name="Error Test">
+    <classes>
+      <class name="shivakumar.tests.errorvalidations"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

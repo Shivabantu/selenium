@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="shivakumar.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="test(failed)">
+    <classes>
+      <class name="shivakumar.tests.submitordertest">
+        <methods>
+          <include name="lanuchApplication"/>
+          <include name="typeclose"/>
+          <include name="orderlist"/>
+          <include name="submitorder" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- shivakumar.tests.submitordertest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
